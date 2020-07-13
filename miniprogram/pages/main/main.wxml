@@ -1,0 +1,40 @@
+<view class="content">
+  <view class="today">
+    <view class="info">
+      <view class="temp">{{wea.data[0].tem}}℃</view>
+      <view class="weather"> {{wea.data[0].wea_day}}  {{wea.data[0].win[0]}} {{wea.data[0].win_speed}} {{wea.data[0].week}}</view>
+      <view>友情提示：{{wea.data[0].air_tips}}</view>
+      <view class="city">{{City}}</view>
+    </view>
+  </view>
+  <view class="future">
+    <view class="future-item">
+    <view class="item rq">{{wea.data[1].week}}</view>
+    <view class="item wd">{{wea.data[1].tem}}℃</view>
+    <view class="item1 tq">{{wea.data[1].wea_day}}</view>
+    <view class="item1 tq1" >{{wea.data[1].win[0]}}</view>
+    <view class="item1 tq1">{{wea.data[1].win_speed}}</view>
+    </view>
+    <view class="future-item">
+    <view class="item rq">{{wea.data[2].week}}</view>
+    <view class="item wd">{{wea.data[2].tem}}℃</view>
+    <view class="item1 tq">{{wea.data[2].wea_day}}</view>
+    <view class="item1 tq1" >{{wea.data[2].win[0]}}</view>
+    <view class="item1 tq1">{{wea.data[2].win_speed}}</view>
+    </view>
+    <view class="future-item">
+    <view class="item rq">{{wea.data[3].week}}</view>
+    <view class="item wd">{{wea.data[3].tem}}℃</view>
+    <view class="item1 tq">{{wea.data[3].wea_day}}</view>
+    <view class="item1 tq1" >{{wea.data[3].win[0]}}</view>
+    <view class="item1 tq1">{{wea.data[3].win_speed}}</view>
+    </view>
+    <view class="future-item">
+    <view class="item rq">{{wea.data[4].week}}</view>
+    <view class="item wd">{{wea.data[4].tem}}℃</view>
+    <view class="item1 tq">{{wea.data[4].wea_day}}</view>
+    <view class="item1 tq1" >{{wea.data[4].win[0]}}</view>
+    <view class="item1 tq1">{{wea.data[4].win_speed}}</view>
+    </view>
+  </view>
+</view>
